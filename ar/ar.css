@@ -1,0 +1,14 @@
+html[dir="rtl"] body { font-family: 'Noto Naskh Arabic', 'DM Sans', sans-serif; }
+html[dir="rtl"] .site-header, html[dir="rtl"] .footer-bottom { direction: rtl; }
+html[dir="rtl"] nav { font-family: 'DM Sans', sans-serif; }
+html[dir="rtl"] .hero h1, html[dir="rtl"] h2 { letter-spacing: 0; line-height: 1.16; }
+html[dir="rtl"] .hero h1 em, html[dir="rtl"] h2 em { font-family: 'Noto Naskh Arabic', serif; }
+html[dir="rtl"] .eyebrow, html[dir="rtl"] .section-label, html[dir="rtl"] .archive-head > p, html[dir="rtl"] .programme-list p, html[dir="rtl"] .about-copy > p, html[dir="rtl"] .history-copy > p, html[dir="rtl"] .value-grid p { letter-spacing: 0; }
+html[dir="rtl"] .about-copy > p, html[dir="rtl"] .history-copy > p, html[dir="rtl"] .programme-list p, html[dir="rtl"] .archive-head > p { font-size: 16px; }
+html[dir="rtl"] .programme-list article { grid-template-columns: 52px 1fr 30px; }
+html[dir="rtl"] .history li { grid-template-columns: 105px 1fr; }
+html[dir="rtl"] table { text-align: right; }
+html[dir="rtl"] caption { text-align: right; }
+html[dir="rtl"] tfoot th { text-align: left; }
+html[dir="rtl"] .announcement span { margin-left: 10px; margin-right: 0; }
+@media(max-width:780px) { html[dir="rtl"] nav { align-items: flex-start; } html[dir="rtl"] .history li { grid-template-columns: 80px 1fr; } }
